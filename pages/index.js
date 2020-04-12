@@ -10,6 +10,10 @@ const HeroGroup = styled.div`
   padding: 80px 50px;
   max-width: 600px;
   text-align: center;
+
+  @media (max-width: 620px) {
+    padding: 50px 10px;
+  }
 `;
 
 const Title = styled.h1`
