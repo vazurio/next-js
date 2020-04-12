@@ -12,7 +12,7 @@ const HeroGroup = styled.div`
   text-align: center;
 
   @media (max-width: 620px) {
-    padding: 50px 10px;
+    padding: 30px 10px;
   }
 `;
 
@@ -20,11 +20,21 @@ const Title = styled.h1`
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 `;
 
 const Subtitle = styled.p`
   line-height: 1.5;
   font-size: 1.5rem;
+
+  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
 `;
 
 const Blue = styled.a`
@@ -42,6 +52,9 @@ const Button = styled.button`
   border-radius: 28px;
   cursor: pointer;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
 `;
 
 const Home = () => (
@@ -69,7 +82,7 @@ const Home = () => (
 
       <div className="grid">
         <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
+          <h3>SwiftUI Animations &rarr;</h3>
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
 
@@ -90,7 +103,7 @@ const Home = () => (
           href="https://zeit.co/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           className="card"
         >
-          <h3>Deploy &rarr;</h3>
+          <h3>React js &rarr;</h3>
           <p>
             Instantly deploy your Next.js site to a public URL with ZEIT Now.
           </p>
@@ -247,6 +260,22 @@ const Home = () => (
 
       * {
         box-sizing: border-box;
+      }
+
+      @keyframes HeroAnimation {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0px);
+        }
+      }
+
+      svg {
+        position: absolute;
+        width: 100%;
       }
     `}</style>
   </div>
