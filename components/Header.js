@@ -6,11 +6,7 @@ class Header extends React.Component {
       <div className="Head">
         <div className="HeaderGroup">
           <Link href="/">
-            <a
-              href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="">
               <img src="/Angel.svg" alt="Angel Logo" />
             </a>
           </Link>
@@ -62,7 +58,11 @@ class Header extends React.Component {
           }
 
           .HeaderGroup button:hover {
-            background: black;
+            background: linear-gradient(
+              99.78deg,
+              #4200ff 0.48%,
+              #bd00ff 102.18%
+            );
             color: white;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
             transform: translateY(-3px);

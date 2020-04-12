@@ -17,6 +17,18 @@ const Home = (props) => (
           <button>Playground &rarr;</button>
         </div>
 
+        <div className="Logos">
+          <a>
+            <img src="/zeit.svg" alt="ZEIT Logo" />
+          </a>
+          <a>
+            <img src="/Angel.svg" alt="ZEIT Logo" />
+          </a>
+          <a>
+            <img src="/zeit.svg" alt="ZEIT Logo" />
+          </a>
+        </div>
+
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
             <h3>SwiftUI Animations &rarr;</h3>
@@ -182,10 +194,18 @@ const Home = (props) => (
         }
 
         .HeroGroup button:hover {
-          background: black;
+          background: linear-gradient(99.78deg, #4200ff 0.48%, #bd00ff 102.18%);
           color: white;
           box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
           transform: translateY(-3px);
+        }
+
+        .Logos {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 40px;
+          margin: 20px 0;
+          justify-items: center;
         }
 
         .grid {
