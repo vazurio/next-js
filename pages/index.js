@@ -155,6 +155,12 @@ const Home = () => (
         padding: 60px 50px;
       }
 
+      @media (max-width: 720px) {
+        .HeroGroup {
+          padding: 30px 10px;
+        }
+      }
+
       .HeroGroup h1 {
         margin: 0;
         line-height: 1.15;
