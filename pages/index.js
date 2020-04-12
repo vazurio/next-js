@@ -1,62 +1,6 @@
 import Head from "next/head";
 import styled from "styled-components";
 
-const Hero = styled.div`
-  height: 520px;
-`;
-
-const HeroGroup = styled.div`
-  margin: 0 auto;
-  padding: 80px 50px;
-  max-width: 600px;
-  text-align: center;
-
-  @media (max-width: 620px) {
-    padding: 30px 10px;
-  }
-`;
-
-const Title = styled.h1`
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-
-  opacity: 0;
-  animation: HeroAnimation;
-  animation-duration: 3s;
-  animation-delay: 0.1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
-`;
-
-const Subtitle = styled.p`
-  line-height: 1.5;
-  font-size: 1.5rem;
-
-  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  opacity: 0;
-`;
-
-const Blue = styled.a`
-  color: #0070f3;
-  text-decoration: none;
-`;
-
-const Button = styled.button`
-  background: #0070f3;
-  border: none;
-  padding: 12px 32px;
-  color: white;
-  font-size: 22px;
-  font-weight: 600;
-  border-radius: 28px;
-  cursor: pointer;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-
-  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  opacity: 0;
-`;
-
 const Home = () => (
   <div className="container">
     <Head>
@@ -65,20 +9,20 @@ const Home = () => (
     </Head>
 
     <main>
-      <Hero>
-        <HeroGroup>
-          <Title>
-            Hi! I'm <Blue href="https://nextjs.org">Angel!</Blue>
-          </Title>
-          <Subtitle>
+      <div className="Hero">
+        <div className="HeroGroup">
+          <h1>
+            Hi! I'm <a href="">Angel!</a>
+          </h1>
+          <p>
             I'm a Developer that loves pretty & clean code, with experience
             working across the stack, totally in love with the buzz that comes
             from building and shipping products. Did I mention I love
-            JavaScript?
-          </Subtitle>
-          <Button>Playground &rarr;</Button>
-        </HeroGroup>
-      </Hero>
+            JavaScript? <code>/About</code>
+          </p>
+          <button>Playground &rarr;</button>
+        </div>
+      </div>
 
       <div className="grid">
         <a href="https://nextjs.org/docs" className="card">
@@ -117,8 +61,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Made with Love by Angel | Powered by{" "}
-        <img src="/zeit.svg" alt="ZEIT Logo" />
+        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
       </a>
     </footer>
 
@@ -201,6 +144,56 @@ const Home = () => (
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
+      .Hero {
+        height: 620px;
+      }
+
+      .HeroGroup {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 60px 50px;
+      }
+
+      .HeroGroup h1 {
+        margin: 0;
+        line-height: 1.15;
+        font-size: 4rem;
+
+        animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      }
+
+      .HeroGroup p {
+        line-height: 1.5;
+        font-size: 1.5rem;
+      }
+
+      .HeroGroup button {
+        background: #0070f3;
+        border: none;
+        padding: 12px 32px;
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+        border-radius: 28px;
+        cursor: pointer;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+        transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+      }
+
+      .HeroGroup h1 a {
+        color: #0070f3;
+        text-decoration: none;
+      }
+
+      .HeroGroup button:hover {
+        background: black;
+        color: white;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+        transform: translateY(-3px);
+      }
+
       .grid {
         display: flex;
         align-items: center;
@@ -271,11 +264,6 @@ const Home = () => (
           opacity: 1;
           transform: translateY(0px);
         }
-      }
-
-      svg {
-        position: absolute;
-        width: 100%;
       }
     `}</style>
   </div>
