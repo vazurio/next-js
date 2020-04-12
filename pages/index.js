@@ -2,7 +2,7 @@ import Head from "next/head";
 import styled from "styled-components";
 
 const Hero = styled.div`
-  height: 420px;
+  height: 520px;
 `;
 
 const HeroGroup = styled.div`
