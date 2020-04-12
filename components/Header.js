@@ -6,7 +6,13 @@ class Header extends React.Component {
       <div className="Head">
         <div className="HeaderGroup">
           <Link href="/">
-            <a>Home</a>
+            <a
+              href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/Angel.svg" alt="Angel Logo" />
+            </a>
           </Link>
           <Link href="/">
             <a>Playground</a>
@@ -18,7 +24,7 @@ class Header extends React.Component {
           .Head {
             position: fixed;
             width: 100%;
-            padding: 20px 0;
+            padding: 15px 0;
             z-index: 100;
             background: white;
             border-bottom: 1px solid #eaeaea;

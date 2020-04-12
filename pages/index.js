@@ -4,19 +4,17 @@ const Home = (props) => (
   <Layout>
     <div className="container">
       <main>
-        <div className="Hero">
-          <div className="HeroGroup">
-            <h1>
-              Hi! I'm <a href="">Angel!</a>
-            </h1>
-            <p>
-              I'm a Developer that loves pretty & clean code, with experience
-              working across the stack, totally in love with the buzz that comes
-              from building and shipping products. Did I mention I love
-              JavaScript? <code>/About</code>
-            </p>
-            <button>Playground &rarr;</button>
-          </div>
+        <div className="HeroGroup">
+          <h1>
+            Hi! I'm <a href="">Angel!</a>
+          </h1>
+          <p>
+            I'm a Developer that loves pretty & clean code, with experience
+            working across the stack, totally in love with the buzz that comes
+            from building and shipping products. Did I mention I love
+            JavaScript? <code>/About</code>
+          </p>
+          <button>Playground &rarr;</button>
         </div>
 
         <div className="grid">
@@ -137,15 +135,11 @@ const Home = (props) => (
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
 
-        .Hero {
-          height: 520px;
-        }
-
         .HeroGroup {
           max-width: 600px;
           margin: 0 auto;
           text-align: center;
-          padding: 60px 50px;
+          padding: 80px 50px;
         }
 
         @media (max-width: 720px) {
