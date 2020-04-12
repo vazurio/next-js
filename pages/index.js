@@ -2,15 +2,42 @@ import Head from "next/head";
 import styled from "styled-components";
 
 const Hero = styled.div`
-  height: 220px;
+  height: 420px;
 `;
 
-const HeroGroup = styled.div``;
+const HeroGroup = styled.div`
+  margin: 0 auto;
+  padding: 80px 50px;
+  max-width: 600px;
+  text-align: center;
+`;
 
 const Title = styled.h1`
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+`;
+
+const Subtitle = styled.p`
+  line-height: 1.5;
+  font-size: 1.5rem;
+`;
+
+const Blue = styled.a`
+  color: #0070f3;
+  text-decoration: none;
+`;
+
+const Button = styled.button`
+  background: #0070f3;
+  border: none;
+  padding: 12px 32px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 28px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 `;
 
 const Home = () => (
@@ -23,16 +50,18 @@ const Home = () => (
     <main>
       <Hero>
         <HeroGroup>
-          <Title>Hi! I'm Angel.</Title>
+          <Title>
+            Hi! I'm <Blue href="https://nextjs.org">Angel!</Blue>
+          </Title>
+          <Subtitle>
+            I'm a Developer that loves pretty & clean code, with experience
+            working across the stack, totally in love with the buzz that comes
+            from building and shipping products. Did I mention I love
+            JavaScript?
+          </Subtitle>
+          <Button>Playground &rarr;</Button>
         </HeroGroup>
       </Hero>
-      <h1 className="title">
-        Hi! I'm <a href="https://nextjs.org">Angel!</a>
-      </h1>
-
-      <p className="description">
-        Switching my site over to NextJS <code>pages/index.js</code>
-      </p>
 
       <div className="grid">
         <a href="https://nextjs.org/docs" className="card">
@@ -71,7 +100,8 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
+        Made with Love by Angel | Powered by{" "}
+        <img src="/zeit.svg" alt="ZEIT Logo" />
       </a>
     </footer>
 
