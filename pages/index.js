@@ -138,7 +138,7 @@ const Home = (props) => (
         }
 
         .Hero {
-          height: 420px;
+          height: 520px;
         }
 
         .HeroGroup {
