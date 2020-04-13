@@ -1,9 +1,11 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
+import ContactForm from "../components/ContactForm";
 
 const Playground = () => (
   <Layout>
     <div className="container">
+      <ContactForm />
       <h1>Playground</h1>
       <h3>Coming soon...</h3>
       <a href="/index">
