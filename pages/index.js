@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Home = () => (
   <Layout>
@@ -14,7 +15,10 @@ const Home = () => (
             }}
             style={{ margin: "0", lineHeight: "1.15", fontSize: "4rem" }}
           >
-            Hi! I'm <a href="">Angel!</a>
+            Hi! I'm{" "}
+            <span style={{ color: "blue" }} href="">
+              Angel!
+            </span>
           </motion.h1>
 
           <motion.p style={{ lineHeight: 1.5, fontSize: "1.5rem" }}>
@@ -23,9 +27,10 @@ const Home = () => (
             from building and shipping products. Did I mention I love
             JavaScript? <code>/About</code>
           </motion.p>
-          <button>
-            <a href="/Playground">Playground &rarr;</a>
-          </button>
+
+          <Link href="/Playground">
+            <a>Playground &rarr;</a>
+          </Link>
         </div>
 
         <div className="Logos">
@@ -161,7 +166,7 @@ const Home = () => (
           font-size: 1.5rem;
         }
 
-        .HeroGroup button {
+        .HeroGroup a {
           background: blue;
           border: none;
           padding: 12px 32px;
@@ -175,12 +180,12 @@ const Home = () => (
           transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
         }
 
-        .HeroGroup h1 a {
+        .HeroGroup h1 span {
           color: #0070f3;
           text-decoration: none;
         }
 
-        .HeroGroup button:hover {
+        .HeroGroup a:hover {
           background: linear-gradient(99.78deg, #4200ff 0.48%, #bd00ff 102.18%);
           color: white;
           box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);

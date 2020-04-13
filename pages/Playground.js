@@ -1,13 +1,14 @@
 import Layout from "../components/Layout";
+import Link from "next/link";
 
 const Playground = () => (
   <Layout>
     <div className="container">
       <h1>Playground</h1>
       <h3>Coming soon...</h3>
-      <button>
-        <a href="/index">Go back</a>
-      </button>
+      <Link href="/index">
+        <a>Go back</a>
+      </Link>
     </div>
 
     <style jsx>{`
@@ -20,10 +21,11 @@ const Playground = () => (
         align-items: center;
       }
 
-      .container button {
+      .container a {
         background: blue;
         border: none;
         padding: 12px 32px;
+        text-decoration: none;
         color: white;
         font-size: 22px;
         font-weight: 600;
@@ -34,16 +36,11 @@ const Playground = () => (
         transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
       }
 
-      .container button:hover {
+      .container a:hover {
         background: linear-gradient(99.78deg, #4200ff 0.48%, #bd00ff 102.18%);
         color: white;
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
         transform: translateY(-3px);
-      }
-
-      .container button a {
-        color: white;
-        text-decoration: none;
       }
     `}</style>
 
