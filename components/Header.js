@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Example } from "../components/Navbar";
 
 class Header extends React.Component {
   render() {
