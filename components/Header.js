@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Example } from "../components/Navbar";
 
 class Header extends React.Component {
   render() {
@@ -64,7 +65,8 @@ class Header extends React.Component {
               #bd00ff 102.18%
             );
             color: white;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 20px 40px
+              linear-gradient(99.78deg, #4200ff 0.48%, #bd00ff 102.18%);
             transform: translateY(-3px);
           }
         `}</style>

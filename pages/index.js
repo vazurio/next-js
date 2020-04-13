@@ -1,19 +1,28 @@
 import Layout from "../components/Layout";
+import { motion } from "framer-motion";
 
 const Home = (props) => (
   <Layout>
     <div className="container">
       <main>
         <div className="HeroGroup">
-          <h1>
+          <motion.h1
+            animate={{
+              scale: [1, 2, 2, 1, 1],
+              rotate: [0, 0, 270, 270, 0],
+              borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+            }}
+            style={{ margin: "0", lineHeight: "1.15", fontSize: "4rem" }}
+          >
             Hi! I'm <a href="">Angel!</a>
-          </h1>
-          <p>
+          </motion.h1>
+
+          <motion.p style={{ lineHeight: 1.5, fontSize: "1.5rem" }}>
             I'm a Developer that loves pretty & clean code, with experience
             working across the stack, totally in love with the buzz that comes
             from building and shipping products. Did I mention I love
             JavaScript? <code>/About</code>
-          </p>
+          </motion.p>
           <button>Playground &rarr;</button>
         </div>
 
