@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import { motion } from "framer-motion";
 
-const Home = (props) => (
+const Home = () => (
   <Layout>
     <div className="container">
       <main>
@@ -23,7 +23,9 @@ const Home = (props) => (
             from building and shipping products. Did I mention I love
             JavaScript? <code>/About</code>
           </motion.p>
-          <button>Playground &rarr;</button>
+          <button>
+            <a href="/Playground">Playground &rarr;</a>
+          </button>
         </div>
 
         <div className="Logos">
@@ -88,6 +90,11 @@ const Home = (props) => (
 
         a {
           color: blue;
+          text-decoration: none;
+        }
+
+        .HeroGroup button a {
+          color: white;
           text-decoration: none;
         }
 
