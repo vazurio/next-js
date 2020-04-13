@@ -28,9 +28,9 @@ const Home = () => (
             JavaScript? <code>/About</code>
           </motion.p>
 
-          <button>
-            <a href="/Playground">Playground &rarr;</a>
-          </button>
+          <a href="/Playground">
+            <button>Playground &rarr;</button>
+          </a>
         </div>
 
         <div className="Logos">

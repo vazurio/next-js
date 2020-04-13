@@ -6,9 +6,9 @@ const Playground = () => (
     <div className="container">
       <h1>Playground</h1>
       <h3>Coming soon...</h3>
-      <button>
-        <a href="/index">Go back</a>
-      </button>
+      <a href="/index">
+        <button>Go back</button>
+      </a>
     </div>
 
     <style jsx>{`
