@@ -166,7 +166,7 @@ const Home = () => (
           font-size: 1.5rem;
         }
 
-        .HeroGroup a {
+        .HeroGroup button {
           background: blue;
           border: none;
           padding: 12px 32px;
@@ -185,7 +185,7 @@ const Home = () => (
           text-decoration: none;
         }
 
-        .HeroGroup a:hover {
+        .HeroGroup button:hover {
           background: linear-gradient(99.78deg, #4200ff 0.48%, #bd00ff 102.18%);
           color: white;
           box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
