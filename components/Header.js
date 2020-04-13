@@ -11,7 +11,7 @@ class Header extends React.Component {
               <img src="/Angel.svg" alt="Angel Logo" />
             </a>
           </Link>
-          <Link href="/">
+          <Link href="/Playground">
             <a>Playground</a>
           </Link>
           <button href="/">Contact &rarr;</button>
@@ -37,7 +37,7 @@ class Header extends React.Component {
           }
 
           .HeaderGroup button {
-            background: #0070f3;
+            background: blue;
             border: none;
             padding: 8px 22px;
             color: white;
