@@ -1,6 +1,5 @@
 import Layout from "../components/Layout";
 import { motion } from "framer-motion";
-import { Example } from "../components/Navbar";
 
 const Home = (props) => (
   <Layout>
