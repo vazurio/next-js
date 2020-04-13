@@ -14,7 +14,7 @@ class Header extends React.Component {
             <a>Playground</a>
           </Link>
           <a style={{ color: "white" }} href="/Playground">
-            <button>Contact</button>
+            <button>Contact &rarr;</button>
           </a>
         </div>
 
