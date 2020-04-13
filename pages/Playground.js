@@ -4,6 +4,7 @@ const Playground = () => (
   <Layout>
     <div className="container">
       <h1>Playground</h1>
+      <h3>Coming soon...</h3>
       <button>
         <a href="/index">Go back</a>
       </button>
