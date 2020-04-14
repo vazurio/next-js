@@ -67,6 +67,7 @@ const Playground = () => (
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 80px 80px;
+        margin: 0 auto;
       }
 
       .subHero {
