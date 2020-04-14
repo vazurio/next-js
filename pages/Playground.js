@@ -64,10 +64,10 @@ const Playground = () => (
       }
 
       .Hero {
+        max-width: 1120px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 80px 80px;
-        width: 90%;
       }
 
       .subHero {
