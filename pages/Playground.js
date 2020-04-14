@@ -23,13 +23,10 @@ const Playground = () => (
             <a href="/index">
               <button>Go back</button>
             </a>
+            <p>Learn from anywhere!</p>
           </div>
           <div className="Image">
-            <TextLoop>
-              <img src="/Learn.svg" alt="Learn Logo" width="100%" />
-              <img src="/park.svg" alt="Park Logo" width="100%" />
-              <img src="/Explore.svg" alt="Explore Logo" width="100%" />
-            </TextLoop>
+            <img src="/park.svg" alt="Park Logo" width="100%" />
           </div>
         </div>
       </main>
@@ -58,7 +55,6 @@ const Playground = () => (
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 0 80px;
-        grid-gap: 20px;
       }
 
       @media (max-width: 1020px) {
@@ -82,11 +78,11 @@ const Playground = () => (
       }
 
       .HeroGroup {
-        max-width: 600px;
+        max-width: 500px;
       }
 
       .Image {
-        max-width: 600px;
+        max-width: 700px;
       }
 
       .HeroGroup button {
