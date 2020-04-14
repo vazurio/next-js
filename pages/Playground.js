@@ -89,6 +89,9 @@ const Playground = () => (
 
         @media (max-width: 1020px) {
           .Hero {
+            max-width: 100%;
+            align-items: center;
+            justify-content: center;
             grid-template-columns: repeat(1, 1fr);
             grid-gap: 20px;
             padding: 80px 20px;
