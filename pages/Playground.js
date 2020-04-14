@@ -89,9 +89,6 @@ const Playground = () => (
         max-width: 600px;
       }
 
-      .Image img {
-      }
-
       .HeroGroup button {
         background: blue;
         border: none;
