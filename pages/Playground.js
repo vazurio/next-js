@@ -4,44 +4,39 @@ import TextLoop from "react-text-loop";
 const Playground = () => (
   <Layout>
     <div className="container">
-      <main>
-        <div className="Hero">
-          <div className="HeroGroup">
-            <h1>
-              <TextLoop>
-                <span> Learn</span>
-                <span> Grow</span>
-                <span> Explore</span>
-              </TextLoop>{" "}
-              Together
-            </h1>
+      <div className="Hero">
+        <div className="HeroGroup">
+          <h1>
+            <TextLoop>
+              <span> Learn</span>
+              <span> Grow</span>
+              <span> Explore</span>
+            </TextLoop>{" "}
+            Together
+          </h1>
 
-            <p>
-              Learn and improve skills across Business, UX/UI Design,
-              Development. Taught by experts to help your workforce do whatever
-              comes next.
-            </p>
-            <p style={{ fontSize: "18px" }}>
-              I'll show you how to create incredibly cool projects.
-            </p>
-            <a href="/index">
-              <button>Begin now &rarr;</button>
-            </a>
-            <a href="/index">
-              <br></br>
-              <button id="button2">Info &rarr;</button>
-            </a>
-          </div>
-          <div className="Image">
-            <img src="/park.svg" alt="Park Logo" width="100%" />
-          </div>
+          <p>
+            Learn and improve skills across Business, UX/UI Design, Development.
+            Taught by experts to help your workforce do whatever comes next.
+          </p>
+          <p style={{ fontSize: "18px" }}>
+            I'll show you how to create incredibly cool projects.
+          </p>
+          <a href="/index">
+            <button>Begin now &rarr;</button>
+          </a>
+          <a href="/index">
+            <br></br>
+            <button id="button2">Info &rarr;</button>
+          </a>
         </div>
-        {/* <div className="subHero">
-          <h3>
-            All the professions we teach are in high demand in the market.
-          </h3>
-        </div> */}
-      </main>
+        <div className="Image">
+          <img src="/park.svg" alt="Park Logo" width="100%" />
+        </div>
+      </div>
+      <div className="subHero">
+        <h3>All the professions we teach are in high demand in the market.</h3>
+      </div>
     </div>
 
     <style jsx>{`
@@ -67,7 +62,7 @@ const Playground = () => (
         max-width: 1120px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding: 80px 80px;
+        padding: 150px 80px;
       }
 
       .subHero {
@@ -91,7 +86,7 @@ const Playground = () => (
         .Hero {
           grid-template-columns: repeat(1, 1fr);
           grid-gap: 20px;
-          padding: 50px 20px;
+          padding: 150px 20px;
         }
 
         .HeroGroup {
