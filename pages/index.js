@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import { motion } from "framer-motion";
+import TextLoop from "react-text-loop";
 
 const Home = () => (
   <Layout>
@@ -20,15 +21,20 @@ const Home = () => (
             </span>
           </motion.h1>
 
-          <motion.p style={{ lineHeight: 1.5, fontSize: "1.5rem" }}>
+          <p>
             I'm a Developer that loves pretty & clean code, with experience
             working across the stack, totally in love with the buzz that comes
             from building and shipping products. Did I mention I love
             JavaScript? <code>/About</code>
-          </motion.p>
+          </p>
 
           <a href="/Playground">
-            <button>Playground &rarr;</button>
+            <TextLoop>
+              <button>Learn &rarr;</button>
+              <button>Code &rarr;</button>
+              <button>Design &rarr;</button>
+              <button>Explore &rarr;</button>
+            </TextLoop>
           </a>
         </div>
 
