@@ -37,6 +37,7 @@ const Playground = () => (
             <img src="/park.svg" alt="Park Logo" width="100%" />
           </div>
         </div>
+
         <div className="subHero">
           <h3>
             All the professions we teach are in high demand in the market.
@@ -64,7 +65,6 @@ const Playground = () => (
         }
 
         .Hero {
-          max-width: 1120px;
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           padding: 80px 80px;
