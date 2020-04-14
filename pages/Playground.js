@@ -22,7 +22,7 @@ const Playground = () => (
               comes next.
             </p>
             <p style={{ fontSize: "18px" }}>
-              I'll show you how to incredibly cool projects.
+              I'll show you how to create incredibly cool projects.
             </p>
             <a href="/index">
               <button>Begin now &rarr;</button>
@@ -35,6 +35,11 @@ const Playground = () => (
           <div className="Image">
             <img src="/park.svg" alt="Park Logo" width="100%" />
           </div>
+        </div>
+        <div className="subHero">
+          <h3>
+            All the professions we teach are in high demand in the market.
+          </h3>
         </div>
       </main>
     </div>
@@ -61,7 +66,24 @@ const Playground = () => (
       .Hero {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding: 0 80px;
+        padding: 80px 80px;
+      }
+
+      .subHero {
+        width: 100%;
+        background: linear-gradient(100.08deg, #2f80ed 0%, #9051e0 100%);
+         {
+          /* background: #ff9900; */
+        }
+        padding: 20px 50px;
+      }
+
+      .subHero h3 {
+        font-size: 3rem;
+        line-height: 1.5;
+        color: white;
+        padding-left: 80px;
+        max-width: 800px;
       }
 
       @media (max-width: 1020px) {
@@ -74,6 +96,11 @@ const Playground = () => (
         .HeroGroup {
           text-align: center;
         }
+      }
+
+      .HappyUser {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
       }
 
       .HeroGroup h1 a {
