@@ -15,15 +15,22 @@ const Playground = () => (
               </TextLoop>{" "}
               Together
             </h1>
+
             <p>
               Learn and improve skills across Business, UX/UI Design,
               Development. Taught by experts to help your workforce do whatever
               comes next.
             </p>
+            <p style={{ fontSize: "18px" }}>
+              I'll show you how to incredibly cool projects.
+            </p>
             <a href="/index">
-              <button>Go back</button>
+              <button>Begin now &rarr;</button>
             </a>
-            <p>Learn from anywhere!</p>
+            <a href="/index">
+              <br></br>
+              <button id="button2">Info &rarr;</button>
+            </a>
           </div>
           <div className="Image">
             <img src="/park.svg" alt="Park Logo" width="100%" />
@@ -83,6 +90,20 @@ const Playground = () => (
 
       .Image {
         max-width: 700px;
+      }
+
+      .HeroGroup #button2 {
+        margin-top: 10px;
+        background: white;
+        color: black;
+        border: 1px solid #eaeaea;
+      }
+
+      .HeroGroup #button2:hover {
+        background: black;
+        color: white;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+        transform: translateY(-3px);
       }
 
       .HeroGroup button {
