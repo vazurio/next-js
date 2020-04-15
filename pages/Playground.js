@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import TextLoop from "react-text-loop";
+import Card from "../components/Card";
 
 const Playground = () => (
   <Layout>
@@ -41,9 +42,31 @@ const Playground = () => (
         <div className="Block">
           <h3>Thousans of happy students</h3>
         </div>
+
+        <div className="CardGroup">
+          <Card
+            title="How to create a spring animation in SwiftUI"
+            subtitle="12 Sections"
+            button="Find out"
+            image="/chat.svg"
+          />
+          <Card
+            title="Grid display with CSS in React JS + More"
+            subtitle="8 Sections"
+            button="Find out"
+            image="/messages.svg"
+          />
+        </div>
       </main>
 
       <style jsx>{`
+        .CardGroup {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 80px;
+          padding: 100px;
+        }
+
         .container {
           min-height: 100vh;
            {
@@ -80,6 +103,10 @@ const Playground = () => (
 
           .HeroGroup {
             text-align: center;
+          }
+
+          .CardGroup {
+            grid-template-columns: repeat(1, 1fr);
           }
         }
 
@@ -168,6 +195,7 @@ const Playground = () => (
           .Block h3 {
             padding-left: 20px;
             font-size: 2rem;
+            text-align: center;
           }
         }
       `}</style>
