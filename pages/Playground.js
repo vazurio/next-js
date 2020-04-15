@@ -122,7 +122,7 @@ const Playground = () => (
         }
 
         .Image {
-          max-width: 700px;
+          max-width: 600px;
         }
 
         .HeroGroup #button2 {
