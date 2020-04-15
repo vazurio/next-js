@@ -65,7 +65,7 @@ const Playground = () => (
         }
 
         .subHero {
-          width: 100%;
+          max-width: 900px;
           background: linear-gradient(100.08deg, #2f80ed 0%, #9051e0 100%);
            {
             /* background: #ff9900; */
@@ -89,7 +89,6 @@ const Playground = () => (
 
         @media (max-width: 1020px) {
           .Hero {
-            text-align: center;
             grid-template-columns: repeat(1, 1fr);
             grid-gap: 20px;
             padding: 80px 20px;
