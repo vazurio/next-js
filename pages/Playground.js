@@ -64,12 +64,6 @@ const Playground = () => (
           align-items: center;
         }
 
-        .Hero {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          padding: 80px 80px;
-        }
-
         .subHero {
           width: 100%;
           background: linear-gradient(100.08deg, #2f80ed 0%, #9051e0 100%);
@@ -87,11 +81,15 @@ const Playground = () => (
           max-width: 800px;
         }
 
+        .Hero {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          padding: 5rem 5rem;
+        }
+
         @media (max-width: 1020px) {
           .Hero {
-            max-width: 100%;
-            align-items: center;
-            justify-content: center;
+            text-align: center;
             grid-template-columns: repeat(1, 1fr);
             grid-gap: 20px;
             padding: 80px 20px;
