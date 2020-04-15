@@ -39,16 +39,21 @@ const Playground = () => (
         </div>
 
         <div className="subHero">
-          <h3>
-            All the professions we teach are in high demand in the market.
-          </h3>
+          <div className="Caption">
+            <h3>
+              All the professions we teach are in high demand in the market.
+            </h3>
+          </div>
         </div>
       </main>
 
       <style jsx>{`
         .container {
           min-height: 100vh;
-          padding: 0 0.5rem;
+           {
+            /* padding: 0 0.5rem; */
+          }
+          padding: 0 0;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -67,18 +72,18 @@ const Playground = () => (
         .subHero {
           width: 100%;
           background: linear-gradient(100.08deg, #2f80ed 0%, #9051e0 100%);
-           {
-            /* background: #ff9900; */
-          }
-          padding: 20px 50px;
+        }
+
+        .Caption {
+          max-width: 800px;
+
+          padding: 0 80px;
         }
 
         .subHero h3 {
           font-size: 3rem;
           line-height: 1.5;
           color: white;
-          padding-left: 80px;
-          max-width: 800px;
         }
 
         .Hero {
