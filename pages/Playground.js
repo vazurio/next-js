@@ -35,7 +35,7 @@ const Playground = () => (
           </div>
 
           <div className="Image">
-            <img src="/park.svg" alt="Park Logo" width="100%" />
+            <img src="/js.svg" alt="Park Logo" width="100%" />
           </div>
         </div>
 
