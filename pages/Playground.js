@@ -75,7 +75,7 @@ const Playground = () => (
           .Hero {
             grid-template-columns: repeat(1, 1fr);
             grid-gap: 20px;
-            padding: 50px 20px;
+            padding: 30px 20px;
           }
 
           .HeroGroup {
@@ -153,8 +153,7 @@ const Playground = () => (
 
         .Block {
           width: 100%;
-          margin: 0 auto;
-          background: blue;
+          background: linear-gradient(100.08deg, #2f80ed 0%, #9051e0 100%);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
         }
 
