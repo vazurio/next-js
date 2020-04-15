@@ -40,7 +40,7 @@ const Playground = () => (
         </div>
 
         <div className="Block">
-          <h3>Thousans of happy students</h3>
+          <h3>Learn from anywhere, any time.</h3>
         </div>
 
         <div className="CardGroup">
@@ -185,7 +185,7 @@ const Playground = () => (
         }
 
         .Block h3 {
-          max-width: 600px;
+          max-width: 500px;
           font-size: 3rem;
           color: white;
           padding-left: 80px;
