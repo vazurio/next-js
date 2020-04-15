@@ -66,6 +66,7 @@ const Playground = () => (
             image="/messages.svg"
           />
         </div>
+        <h5 style={{ fontSize: "30px" }}>More on the way &rarr;</h5>
       </main>
 
       <style jsx>{`
