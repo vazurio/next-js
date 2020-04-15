@@ -181,7 +181,6 @@ const Playground = () => (
         .Block {
           width: 100%;
           background: linear-gradient(100.08deg, #2f80ed 0%, #9051e0 100%);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
         }
 
         .Block h3 {
