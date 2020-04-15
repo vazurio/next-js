@@ -196,16 +196,23 @@ const Playground = () => (
           color: white;
         }
 
+        .TextBlock p {
+          color: rgba(255, 255, 255, 0.7);
+        }
+
         .TextBlock {
           max-width: 600px;
           padding: 50px 80px;
         }
 
         @media (max-width: 620px) {
-          .Block h3 {
-            padding-left: 20px;
-            font-size: 2rem;
+          .TextBlock {
+            padding: 30px 20px;
             text-align: center;
+          }
+
+          .TextBlock h3 {
+            font-size: 2rem;
           }
         }
       `}</style>
