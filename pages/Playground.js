@@ -38,7 +38,9 @@ const Playground = () => (
           </div>
         </div>
 
-        <div className="Block"></div>
+        <div className="Block">
+          <h3>Thousans of happy students</h3>
+        </div>
       </main>
 
       <style jsx>{`
@@ -152,9 +154,15 @@ const Playground = () => (
         .Block {
           width: 100%;
           margin: 0 auto;
-          height: 350px;
           background: blue;
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .Block h3 {
+          max-width: 600px;
+          font-size: 3rem;
+          color: white;
+          padding-left: 80px;
         }
       `}</style>
 
