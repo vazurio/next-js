@@ -65,7 +65,7 @@ const Playground = () => (
         }
 
         .subHero {
-          max-width: 900px;
+          width: 100%;
           background: linear-gradient(100.08deg, #2f80ed 0%, #9051e0 100%);
            {
             /* background: #ff9900; */
