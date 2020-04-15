@@ -16,7 +16,7 @@ const Card = (props) => (
     <style jsx>{`
       .Card {
         max-width: 320px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
         border-radius: 20px;
       }
 
