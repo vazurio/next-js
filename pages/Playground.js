@@ -40,7 +40,13 @@ const Playground = () => (
         </div>
 
         <div className="Block">
-          <h3>Learn from anywhere, any time.</h3>
+          <div className="TextBlock">
+            <h3>Learn from anywhere, any time.</h3>
+            <p>
+              It doesn't matter if you have experience or not, we will make sure
+              you complete each course with a smile perfectly :)
+            </p>
+          </div>
         </div>
 
         <div className="CardGroup">
@@ -184,10 +190,15 @@ const Playground = () => (
         }
 
         .Block h3 {
+          margin: 0;
           max-width: 500px;
           font-size: 3rem;
           color: white;
-          padding-left: 80px;
+        }
+
+        .TextBlock {
+          max-width: 600px;
+          padding: 50px 80px;
         }
 
         @media (max-width: 620px) {
