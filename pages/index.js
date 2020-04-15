@@ -281,6 +281,10 @@ const Home = () => (
           .HeroGroup {
             padding: 30px 10px;
           }
+
+          .ChildGroup h2 {
+            font-size: 2rem;
+          }
         }
 
         .ChildGroup {
