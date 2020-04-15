@@ -61,6 +61,7 @@ const Playground = () => (
 
       <style jsx>{`
         .CardGroup {
+          margin: 80px 0;
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           grid-gap: 80px;
