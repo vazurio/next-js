@@ -37,6 +37,8 @@ const Playground = () => (
             <img src="/park.svg" alt="Park Logo" width="100%" />
           </div>
         </div>
+
+        <div className="Block"></div>
       </main>
 
       <style jsx>{`
@@ -61,23 +63,6 @@ const Playground = () => (
           align-items: center;
         }
 
-        .subHero {
-          width: 100%;
-          background: linear-gradient(100.08deg, #2f80ed 0%, #9051e0 100%);
-        }
-
-        .Caption {
-          max-width: 800px;
-
-          padding: 0 80px;
-        }
-
-        .subHero h3 {
-          font-size: 3rem;
-          line-height: 1.5;
-          color: white;
-        }
-
         .Hero {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -94,11 +79,6 @@ const Playground = () => (
           .HeroGroup {
             text-align: center;
           }
-        }
-
-        .HappyUser {
-          display: grid;
-          grid-template-columns: repeat(3, 3fr);
         }
 
         .HeroGroup h1 a {
@@ -167,6 +147,14 @@ const Playground = () => (
         .HeroGroup p {
           font-size: 1.5rem;
           line-height: 1.5;
+        }
+
+        .Block {
+          width: 100%;
+          margin: 0 auto;
+          height: 350px;
+          background: blue;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
         }
       `}</style>
 
