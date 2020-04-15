@@ -84,7 +84,7 @@ const Playground = () => (
         .Hero {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
-          padding: 5rem 5rem;
+          padding: 5rem 80px;
         }
 
         @media (max-width: 1020px) {
