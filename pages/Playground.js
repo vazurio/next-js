@@ -25,7 +25,7 @@ const Playground = () => (
             <p style={{ fontSize: "18px" }}>
               I'll show you how to create incredibly cool projects.
             </p>
-            <a href="/index">
+            <a href="#BeginNow">
               <button>Begin now &rarr;</button>
             </a>
             <a href="/index">
@@ -40,8 +40,11 @@ const Playground = () => (
         </div>
 
         <div className="Block">
+          <a name="BeginNow"></a>
           <div className="TextBlock">
-            <h3>Learn from anywhere, any time.</h3>
+            <h3>
+              <a>Learn from anywhere, any time.</a>
+            </h3>
             <p>
               It doesn't matter if you have experience or not, we will make sure
               you complete each course with a smile perfectly :)
