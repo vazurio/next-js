@@ -77,6 +77,24 @@ const Home = () => (
             <p>Soon you'll be able to also learn Flutter with me.</p>
           </a>
         </div>
+        <div className="NewGroup">
+          <div className="ChildGroup">
+            <h2>I enjoy creating & shipping products.</h2>
+            <p>
+              My main passion is programming then my other side is on UX/UI
+              while both are essential in the development process. I enjoy doing
+              both.
+            </p>
+            <button>More info</button>
+            <p>
+              Plus I love working together as a team. One can accomplish much
+              more together!
+            </p>
+          </div>
+          <div className="Image">
+            <img src="/park.svg" alt="Park Logo" width="100%" />
+          </div>
+        </div>
       </main>
 
       <style jsx>{`
@@ -149,12 +167,6 @@ const Home = () => (
           margin: 0 auto;
           text-align: center;
           padding: 80px 50px;
-        }
-
-        @media (max-width: 720px) {
-          .HeroGroup {
-            padding: 30px 10px;
-          }
         }
 
         .HeroGroup h1 {
@@ -245,11 +257,72 @@ const Home = () => (
           line-height: 1.5;
         }
 
-        @media (max-width: 600px) {
+        .NewGroup {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          padding: 5rem 80px;
+        }
+
+        @media (max-width: 1020px) {
           .grid {
             width: 100%;
             flex-direction: column;
           }
+
+          .NewGroup {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+            padding: 30px 20px;
+          }
+
+          .ChildGroup {
+            text-align: center;
+          }
+
+          .HeroGroup {
+            padding: 30px 10px;
+          }
+        }
+
+        .ChildGroup {
+          max-width: 500px;
+        }
+
+        .Image {
+          max-width: 600px;
+        }
+
+        .ChildGroup button {
+          background: blue;
+          border: none;
+          padding: 12px 32px;
+          text-decoration: none;
+          color: white;
+          font-size: 22px;
+          font-weight: 600;
+          border-radius: 28px;
+          cursor: pointer;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+          transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+
+        .ChildGroup button:hover {
+          background: linear-gradient(99.78deg, #4200ff 0.48%, #bd00ff 102.18%);
+          color: white;
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+          transform: translateY(-3px);
+        }
+
+        .ChildGroup h2 {
+          margin: 0;
+          line-height: 1.15;
+          font-size: 3rem;
+        }
+
+        .ChildGroup p {
+          font-size: 1.2rem;
+          line-height: 1.5;
         }
       `}</style>
 

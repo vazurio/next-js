@@ -19,8 +19,8 @@ const Playground = () => (
 
             <p>
               Learn and improve skills across Business, UX/UI Design,
-              Development. Taught by experts to help your workforce do whatever
-              comes next.
+              Development. Taught by me to help your workforce do whatever comes
+              next.
             </p>
             <p style={{ fontSize: "18px" }}>
               I'll show you how to create incredibly cool projects.
