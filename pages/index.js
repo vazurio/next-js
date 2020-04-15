@@ -272,7 +272,7 @@ const Home = () => (
           .NewGroup {
             grid-template-columns: repeat(1, 1fr);
             grid-gap: 20px;
-            padding: 30px 20px;
+            padding: 30px 10px;
           }
 
           .ChildGroup {
