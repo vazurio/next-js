@@ -40,11 +40,11 @@ const Playground = () => (
         </div>
 
         <div className="Block">
-          <a name="BeginNow"></a>
           <div className="TextBlock">
             <h3>
               <a>Learn from anywhere, any time.</a>
             </h3>
+            <a name="BeginNow"></a>
             <p>
               It doesn't matter if you have experience or not, we will make sure
               you complete each course with a smile perfectly :)
