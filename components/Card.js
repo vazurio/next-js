@@ -33,6 +33,8 @@ const Card = (props) => (
         margin: 0;
         color: white;
         line-height: 1.5;
+        font-size: 18px;
+        margin-right: 10px;
       }
 
       .CardBlock p {
