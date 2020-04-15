@@ -47,7 +47,7 @@ const Card = (props) => (
         background: white;
         width: 220px;
         height: 60px;
-        font-weigth: 600;
+        font-weight: 600;
         font-size: 18px;
         border-radius: 18px;
         box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
