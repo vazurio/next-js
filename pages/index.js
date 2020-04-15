@@ -81,9 +81,8 @@ const Home = () => (
           <div className="ChildGroup">
             <h2>I enjoy creating & shipping products.</h2>
             <p>
-              My main passion is programming then my other side is on UX/UI
-              while both are essential in the development process. I enjoy doing
-              both.
+              My main passion is programming, my other side is on UX/UI while
+              both are essential in the development process. I enjoy doing both.
             </p>
             <button>More info</button>
             <p>
@@ -321,7 +320,7 @@ const Home = () => (
         }
 
         .ChildGroup p {
-          font-size: 1.2rem;
+          font-size: 1.3rem;
           line-height: 1.5;
         }
       `}</style>
