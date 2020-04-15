@@ -157,6 +157,12 @@ const Playground = () => (
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
         }
 
+        @media (max-width: 620px) {
+          .Block h3 {
+            padding-left: 20px;
+          }
+        }
+
         .Block h3 {
           max-width: 600px;
           font-size: 3rem;
