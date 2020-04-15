@@ -37,14 +37,6 @@ const Playground = () => (
             <img src="/park.svg" alt="Park Logo" width="100%" />
           </div>
         </div>
-
-        <div className="subHero">
-          <div className="Caption">
-            <h3>
-              All the professions we teach are in high demand in the market.
-            </h3>
-          </div>
-        </div>
       </main>
 
       <style jsx>{`
