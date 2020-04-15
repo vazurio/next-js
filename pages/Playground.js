@@ -167,6 +167,7 @@ const Playground = () => (
         @media (max-width: 620px) {
           .Block h3 {
             padding-left: 20px;
+            font-size: 2rem;
           }
         }
       `}</style>
