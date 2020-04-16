@@ -182,7 +182,7 @@ const Home = () => (
         }
 
         .TextBlock h4 {
-          font-size: 2rem;
+          font-size: 2.5rem;
         }
 
         .TextBlock p {
