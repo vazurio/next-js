@@ -79,7 +79,7 @@ const Home = () => (
         </div>
         <div className="NewGroup">
           <div className="ChildGroup">
-            <h2>I enjoy creating & shipping products.</h2>
+            <h2>I love what I do</h2>
             <p>
               My main passion is programming, my other side is on UX/UI while
               both are essential in the development process. I enjoy doing both.
@@ -91,8 +91,16 @@ const Home = () => (
             </p>
           </div>
           <div className="Image">
-            <img src="/park.svg" alt="Park Logo" width="100%" />
+            <img src="/work.svg" alt="Park Logo" width="100%" />
           </div>
+        </div>
+
+        <div className="TextBlock">
+          <h4>Online courses from 140 Top instituions</h4>
+          <p>
+            Choose from 1000 Online videos plus our selected courses. More
+            coming..
+          </p>
         </div>
       </main>
 
@@ -166,6 +174,19 @@ const Home = () => (
           margin: 0 auto;
           text-align: center;
           padding: 80px 50px;
+        }
+
+        .TextBlock {
+          max-width: 600px;
+          text-align: center;
+        }
+
+        .TextBlock h4 {
+          font-size: 2rem;
+        }
+
+        .TextBlock p {
+          font-size: 1.2rem;
         }
 
         .HeroGroup h1 {
