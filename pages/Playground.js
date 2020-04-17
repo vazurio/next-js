@@ -28,9 +28,13 @@ const Playground = () => (
             <a href="#BeginNow">
               <button>Begin now &rarr;</button>
             </a>
-            <a href="/index">
-              <br></br>
-              <button id="button2">Info &rarr;</button>
+            <br></br>
+            <a
+              target="_blank"
+              href="https://www.figma.com/file/fZtACphxjdiG2ry9yJJRLo/Angel-Icons"
+              download=""
+            >
+              <button id="button2">Icons &rarr;</button>
             </a>
           </div>
 

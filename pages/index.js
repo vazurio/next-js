@@ -79,28 +79,27 @@ const Home = () => (
         </div>
         <div className="NewGroup">
           <div className="ChildGroup">
-            <h2>I love what I do</h2>
+            <h2>I definitely love design and code</h2>
             <p>
               My main passion is programming, my other side is on UX/UI while
               both are essential in the development process. I enjoy doing both.
             </p>
-            <button>More info</button>
+            <a>
+              <button></button>
+            </a>
             <p>
               Plus I love working together as a team. One can accomplish much
               more together!
             </p>
           </div>
           <div className="Image">
-            <img src="/work.svg" alt="Park Logo" width="100%" />
+            <img src="/coding.svg" alt="Park Logo" width="100%" />
           </div>
         </div>
 
         <div className="TextBlock">
-          <h4>Online courses from 140 Top instituions</h4>
-          <p>
-            Choose from 1000 Online videos plus our selected courses. More
-            coming..
-          </p>
+          <h4>Favorite Tools</h4>
+          <p>Coming...</p>
         </div>
       </main>
 
@@ -182,7 +181,7 @@ const Home = () => (
         }
 
         .TextBlock h4 {
-          font-size: 2.5rem;
+          font-size: 2.8rem;
         }
 
         .TextBlock p {
@@ -281,6 +280,14 @@ const Home = () => (
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           padding: 5rem 80px;
+          align-items: center;
+          justify-content: center;
+        }
+
+        @media (max-width: 414px) {
+          .HeroGroup h1 {
+            font-size: 36px;
+          }
         }
 
         @media (max-width: 1020px) {
