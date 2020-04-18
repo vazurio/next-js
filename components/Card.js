@@ -9,7 +9,10 @@ const Card = (props) => (
           <h4>{props.title}</h4>
           <p>{props.subtitle}</p>
         </div>
-        <button>{props.button}</button>
+        <a href="/Lesson">
+          {" "}
+          <button> &rarr;</button>
+        </a>
       </div>
     </div>
 
@@ -23,7 +26,7 @@ const Card = (props) => (
       .CardBlock {
         background: blue;
         border-radius: 20px;
-        padding: 15px 20px;
+        padding: 15px 15px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -47,8 +50,7 @@ const Card = (props) => (
         cursor: pointer;
         border: none;
         background: white;
-        width: 220px;
-        height: 60px;
+        padding: 6px 30px;
         font-weight: 600;
         font-size: 18px;
         border-radius: 18px;
@@ -58,7 +60,8 @@ const Card = (props) => (
       }
 
       .CardBlock button:hover {
-        background: black;
+        background: transparent;
+        border: 1px solid #eaeaea;
         color: white;
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
         transform: translateY(-3px);

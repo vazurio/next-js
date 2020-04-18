@@ -58,8 +58,8 @@ const Playground = () => (
 
         <div className="CardGroup">
           <Card
-            title="How to create a spring animation in SwiftUI"
-            subtitle="12 Sections"
+            title="Create a heart shape in any design tool"
+            subtitle="HEART SHAPE"
             button="Find out"
             image="/chat.svg"
           />

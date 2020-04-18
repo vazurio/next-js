@@ -22,19 +22,13 @@ const Home = () => (
           </motion.h1>
 
           <p>
-            I'm a Developer that loves pretty & clean code, with experience
-            working across the stack, totally in love with the buzz that comes
-            from building and shipping products. Did I mention I love
-            JavaScript? <code>/About</code>
+            I'm a Developer that loves pretty & clean code, I'm curios and I'm
+            always learning new things. I believe practice makes perfect.{" "}
+            <code>/About</code>
           </p>
 
           <a href="/Playground">
-            <TextLoop>
-              <button>Learn &rarr;</button>
-              <button>Code &rarr;</button>
-              <button>Design &rarr;</button>
-              <button>Explore &rarr;</button>
-            </TextLoop>
+            <button>Explore &rarr;</button>
           </a>
         </div>
 

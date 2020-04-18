@@ -6,7 +6,9 @@ const Footer = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
+        Made with Love
+        <img src="/heart.svg" alt="ZEIT Logo" />
+        by Angel
       </a>
     </footer>
 

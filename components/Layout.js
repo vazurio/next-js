@@ -6,7 +6,7 @@ const Layout = (props) => (
   <>
     <Head>
       <title>Angel Vazquez</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/Angel.svg" />
     </Head>
 
     <Header />
