@@ -70,6 +70,12 @@ const Lesson = () => (
         max-width: 800px;
       }
 
+      @media (max-width: 414px) {
+        .Hero {
+          padding: 20px 20px;
+        }
+      }
+
       .Hero h3 {
         font-size: 40px;
       }
