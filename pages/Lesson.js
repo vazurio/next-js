@@ -72,7 +72,7 @@ const Lesson = () => (
 
       @media (max-width: 414px) {
         .Hero {
-          padding: 20px 20px;
+          padding: 20px 40px;
         }
       }
 
