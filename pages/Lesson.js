@@ -65,15 +65,15 @@ const Lesson = () => (
         align-items: center;
       }
 
+      @media (max-width: 414px) {
+        .Hero {
+          max-width: 600px;
+        }
+      }
+
       .Hero {
         padding: 20px 20px;
         max-width: 800px;
-      }
-
-      @media (max-width: 414px) {
-        .Hero {
-          padding: 20px 40px;
-        }
       }
 
       .Hero h3 {
