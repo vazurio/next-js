@@ -74,6 +74,7 @@ const Lesson = () => (
 
       .Hero {
         max-width: 800px;
+        margin: 0 auto;
       }
 
       .Hero h3 {
@@ -92,6 +93,7 @@ const Lesson = () => (
         background: #0a2a55;
         border-radius: 30px;
         padding: 80px;
+
         display: flex;
         align-items: center;
         justify-content: center;
