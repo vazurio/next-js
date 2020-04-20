@@ -69,6 +69,10 @@ const Lesson = () => (
         .Hero {
           max-width: 300px;
         }
+
+        .HeroGroup {
+          padding: 0 20px;
+        }
       }
 
       .Hero {
