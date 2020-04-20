@@ -49,7 +49,7 @@ const Lesson = () => (
     <style jsx>{`
       .container {
         min-height: 100vh;
-        padding: 0 0;
+        padding: 0 0.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -68,10 +68,6 @@ const Lesson = () => (
       @media (max-width: 414px) {
         .Hero {
           max-width: 300px;
-        }
-
-        .HeroGroup {
-          padding: 0 20px;
         }
       }
 
