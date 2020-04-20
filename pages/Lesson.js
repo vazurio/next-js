@@ -47,30 +47,19 @@ const Lesson = () => (
         margin: 0 auto;
       }
 
-      @media (max-width: 420px) {
-        .Hero h1 {
-          font-size: 36px;
-        }
-
-        .Hero h3 {
-          font-size: 30px;
-        }
-
-        .Hero p {
-          font-size: 24px;
-        }
-      }
-
       .Hero h3 {
-        font-size: 40px;
+        font-size: 2rem;
       }
 
       .Hero h1 {
-        font-size: 60px;
+        font-size: 4rem;
+
+        line-height: 1.15;
       }
 
       .Hero p {
-        font-size: 26px;
+        font-size: 1.5rem;
+        line-height: 1.5;
       }
 
       .HeroGroup {
