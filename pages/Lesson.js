@@ -49,7 +49,7 @@ const Lesson = () => (
     <style jsx>{`
       .container {
         min-height: 100vh;
-        padding: 0 0.5rem;
+        padding: 0 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -57,7 +57,7 @@ const Lesson = () => (
       }
 
       main {
-        padding: 5rem 2rem;
+        padding: 5rem 0;
         flex: 1;
         display: flex;
         flex-direction: column;
