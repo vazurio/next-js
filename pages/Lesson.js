@@ -41,24 +41,24 @@ const Lesson = () => (
     </div>
 
     <style jsx>{`
-      .container {
-        min-height: 100vh;
-        padding: 0 0.5rem;
-      }
-
-      main {
-        padding: 5rem 0;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
       .Hero {
         max-width: 800px;
         padding: 80px 20px;
         margin: 0 auto;
+      }
+
+      @media (max-width: 720px) {
+        .Hero h1 {
+          font-size: 36px;
+        }
+
+        .Hero h3 {
+          font-size: 30px;
+        }
+
+        .Hero p {
+          font-size: 24px;
+        }
       }
 
       .Hero h3 {
