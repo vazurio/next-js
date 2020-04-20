@@ -54,6 +54,12 @@ const Lesson = () => (
         font-size: 2rem;
       }
 
+      @media (max-width: 620px) {
+        .Hero h1 {
+          font-size: 3rem;
+        }
+      }
+
       .Hero h1 {
         font-size: 4rem;
         line-height: 1.15;
