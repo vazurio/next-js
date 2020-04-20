@@ -67,14 +67,7 @@ const Lesson = () => (
 
       .Hero {
         max-width: 800px;
-        margin: 0 auto;
-        padding: 80px;
-      }
-
-      @media (max-width: 620px) {
-        .Hero {
-          padding: 0 20px;
-        }
+        margin-top: 80px;
       }
 
       .Hero h3 {
