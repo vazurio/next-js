@@ -57,7 +57,7 @@ const Lesson = () => (
       }
 
       main {
-        padding: 5rem 0;
+        padding: 5rem 2rem;
         flex: 1;
         display: flex;
         flex-direction: column;
