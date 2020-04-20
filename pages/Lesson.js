@@ -57,7 +57,7 @@ const Lesson = () => (
       }
 
       main {
-        padding: 5rem 0;
+        padding: 5rem 2rem;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -68,8 +68,6 @@ const Lesson = () => (
       .Hero {
         max-width: 800px;
         margin-top: 80px;
-        margin-right: 20px;
-        margin-left: 20px;
       }
 
       .Hero h3 {
