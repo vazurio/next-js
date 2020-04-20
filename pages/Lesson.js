@@ -47,7 +47,7 @@ const Lesson = () => (
         margin: 0 auto;
       }
 
-      @media (max-width: 720px) {
+      @media (max-width: 420px) {
         .Hero h1 {
           font-size: 36px;
         }
